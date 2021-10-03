@@ -1,0 +1,179 @@
+#logo1{
+    height: 60px;
+    width: 150px;
+}
+
+#nav2{
+    padding-left: 100px;
+    font-size: 16px;
+}
+#search1{
+    padding-top: 10px;
+   }
+#search2:hover{
+    background-color:wheat;
+}
+@media only screen and (max-width: 640px) {
+    #search1{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+    }
+
+   #nav2{
+       padding-left: 40px;
+   }
+
+   #fonts1{
+       font-size: 8px;
+   }
+   #fonts2{
+       font-size: 20px;
+   }
+   #services,#about,#headings1{
+    margin-top: 15px;
+    margin-bottom: 0%;
+    margin-left: 15px;
+}
+
+}
+#link1:hover{
+    color: wheat !important;
+}
+
+@media only screen and (min-width: 720px){
+    #search1{
+        padding-left: 70px;
+        padding-right: 200px;
+        padding-bottom: 10px;
+    }
+    #nav2{
+        padding-left: 70px;
+    }
+}
+#bg1{
+    background-image: url("imagebg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#imgbg{
+    transition: all 0.5s ease;
+}
+#imgbg:hover{
+    transform: scale(1.1,1.1);
+}
+#imgbg{
+    height: 80%;
+    width: 70%;
+}
+#services,#about,#headings1{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+/*Article*/
+.text1{
+    font-size: 15px;
+}
+#newshead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#newsimg{
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#newsimg{
+    transition: all 0.5s ease;
+}
+#newsimg:hover{
+    transform: scale(1.1,1.1);
+}
+.hide{
+    display: none;
+}
+
+  /*card*/
+  #cardimg{
+      height: 200px;
+      width: 500px;
+      border-radius: 10px;
+  }
+.li1 {
+    color: wheat !important; 
+}
+.li1:hover{
+    color: lightsalmon !important;
+}
+
+/*contact us form*/
+#exampleInputName:hover,#exampleInputEmail1:hover,#subject1:hover,#message1:hover{
+    background-color:wheat;
+}
+#message1{
+    resize: none;
+}
+.social3{
+    font-size: 20px;
+}
+#upbtn{
+    text-align: end ;
+    font-size: 50px ;
+   
+}
+/*card gallery*/
+#picscol{
+    height: 200px;
+    width: 100%;    
+}
+#picscol2{
+    height: 420px;
+    width: 100%;
+}
+#picscol3{
+    height: 200px;
+    width: 100%;
+}
+#gallstyle{
+    color:white;
+    font-size: 17px;
+}
+#gallstyle:hover{
+    color: black;
+}
+#gallstyle2{
+    color:white;
+    font-size: 17px;
+
+}
+#gallstyle2:hover{
+    color: black;
+}
+#we2{
+    cursor: pointer;
+}
+/*article styles*/
+#artstyles2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#goback{
+    font-size: 50px;
+    color: black;
+}
+#goback:hover{
+    color: orange;
+}
+@media only screen and (max-width: 640px){
+    #picscol2{
+        height: 200px;
+        width: 100%;
+    }
+    #artstyles2{
+        margin-top: 20px;
+        font-size: 13px;
+}
+}

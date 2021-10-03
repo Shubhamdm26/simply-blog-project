@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- my Css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!--bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!--Java Script-->
+  <script defer language="Javascript" type="text/javascript" src="js/script.js"></script>
+
+  <title>Blog</title>
+</head>
+
+<body>
+  <section id="sec1">
+    <!---Navbar start-->
+    <nav class="navbar navbar-expand-md navbar-light" id="nav1">
+      <div class="container-fluid bg-black mt-1">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" id="logo1" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="bi bi-toggles text-white"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav2">
+            <li class="nav-item  ">
+              <a class="nav-link active text-white" id="link1" aria-current="area" href="#">Home</a>
+            </li>
+            <li class="nav-item  ">
+              <a class="nav-link active text-white" id="link1" aria-current="area" href="#about">About</a>
+            </li>
+            <li class="nav-item  ">
+              <a class="nav-link active text-white" id="link1" aria-current="area" href="#services">Services</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active text-white" id="link1" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white " id="link1" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" id="search1">
+            <input class="form-control" type="search" id="search2" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!---Navbar end-->
+    <div id="bg1" class="container-fluid">
+
+      <div class="row justify-content-evenly">
+        <div id="fonts1" class="col-5 align-self-center text-white ">
+          <h1 id="fonts2">SolveIT Blog</h1>
+          <p> Lets See What Experts Say About Latest trends and Technolgies</p>
+        </div>
+        <div class="col-5 mt-5 mb-4 ">
+          <img id="imgbg" src="images/image2.jpg" alt="image here" class="img-fluid rounded float-end">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---nesletter-->
+  <section>
+    <div class="container mt-2 mb-2 justify-content-evenly">
+      <div class="text-center">
+        <h1 class="text-capitalize">Latest News</h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-5 col-sm-12 mt-4">
+          <img id="newsimg" src="images\newsletters\news1.jpg" alt="news1" class="img-fluid">
+        </div>
+        <div class="col-lg-8 col-md-7 mt-4 col-sm-12">
+          <article class="artical1">
+            <h2 id="newshead">Fugiat qui incididunt consectetur cillum anim deserunt.</h2>
+            <p><small class="text-muted">Last updated 3 days ago</small></p>
+            <p class="text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veritatis animi
+              ali laboriosam velit, esse, blanditiis aspernatur sint est magnam debitis delectus in fuga fugiat repellat
+              dignissimos ipsum necessitatibus corrupti veniam reprehenderit,assumenda sapiente expedita labore atque!
+              Sint velit cumque minus pariatur quisquam,beatae ab quo impedit eaque soluta vel laboriosam itaque
+              similique iste ex aut in nihil dolorem
+              consequunturpossimus eligendi eos optio ipsam! Sint ullam voluptate obcaecati asperiores eos vero sed
+              iusto magnam
+              ad,vel repellat quidem? Omnis fugit accusantium, illo quos eos odio consectetur et nemo excepturi deleniti
+              dolorum adipisci dolores delectus possimus libero, sed iusto dolorem? Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Reiciendis neque distinctio modi dicta ut impedit,
+              corporis expedita excepturi natus reprehenderit illo temporibus. Veniam eius dolorem cumque! Iusto eum
+              aut et ipsam nemo cum totam delectus explicabo? Quis odio perferendis aliquid facilis ea quaerat vero
+              minima
+              dolorem cumque, est ab! Vero fuga tenetur unde. Perferendis alias, fugit debitis culpa doloremque
+              aperiammolestiae quos incidunt dolore iure officia! Blanditiis sint delectus quam quae nulla.</span></p>
+            <button onclick="readMore(this)" type="button" class="btn btn-outline-primary">Read More</button>
+            <button id="likebtn" type="button" class="btn btn-success align-item-end"><i
+                class="bi bi-hand-thumbs-up-fill"></i></button>
+            <button id="likebtn" type="button" class="btn btn-success"><i
+                class="bi bi-hand-thumbs-down-fill"></i></i></button>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12 mt-4">
+          <img id="newsimg" src="images\newsletters\news2.jpg" alt="news2" class="img-fluid">
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 mt-4">
+          <article class="artical1">
+            <h2 id="newshead">Fugiat qui incididunt consectetur cillum anim deserunt.</h2>
+            <p><small class="text-muted">Last updated 3 days ago</small></p>
+            <p class="text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veritatis animi
+              aliquam
+              laboriosam velit, esse, blanditiis aspernatur sint est magnam debitis delectus in fuga fugiat repellat
+              dignissimos ipsum necessitatibus corrupti veniam reprehenderit, assumenda sapiente expedita labore atque!
+              Sint velit cumque minus pariatur quisquam,
+              beatae ab quo impedit eaque soluta vel laboriosam itaque similique iste ex aut in nihil dolorem
+              consequuntur
+              possimus eligendi eos optio ipsam! Sint ullam voluptate obcaecati asperiores eos vero sed iusto magnam
+              ad,
+              vel repellat quidem? Omnis fugit accusantium, illo quos eos odio consectetur et nemo excepturi deleniti
+              dolorum adipisci dolores delectus possimus libero, sed iusto dolorem? Lorem ipsum dolor sit amet
+              consectetur
+              adipisicing elit. Reiciendis neque distinctio modi dicta ut impedit,
+              corporis expedita excepturi natus reprehenderit illo temporibus. Veniam eius dolorem cumque! Iusto eum
+              aut
+              et ipsam nemo cum totam delectus explicabo? Quis odio perferendis aliquid facilis ea quaerat vero minima
+              dolorem cumque, est ab! Vero fuga tenetur unde. Perferendis alias, fugit debitis culpa doloremque
+              aperiam
+              molestiae quos incidunt dolore iure officia! Blanditiis sint delectus quam quae nulla.</span></p>
+            <button onclick="readMore(this)" type="button" class="btn btn-outline-primary">Read More</button>
+            <button id="likebtn" type="button" class="btn btn-success align-item-end"><i
+                class="bi bi-hand-thumbs-up-fill"></i></button>
+            <button id="likebtn" type="button" class="btn btn-success"><i
+                class="bi bi-hand-thumbs-down-fill"></i></i></button>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12 mt-4">
+          <img id="newsimg" src="images\newsletters\news3.jpg" alt="news3" class="img-fluid">
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 mt-4">
+          <article class="artical1">
+            <h2 id="newshead">Fugiat qui incididunt consectetur cillum anim deserunt.</h2>
+            <p><small class="text-muted">Last updated 3 days ago</small></p>
+            <p class="text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veritatis animi
+              aliquam
+              laboriosam velit, esse, blanditiis aspernatur sint est magnam debitis delectus in fuga fugiat repellat
+              dignissimos ipsum necessitatibus corrupti veniam reprehenderit, assumenda sapiente expedita labore atque!
+              Sint velit cumque minus pariatur quisquam,
+              beatae ab quo impedit eaque soluta vel laboriosam itaque similique iste ex aut in nihil dolorem
+              consequuntur
+              possimus eligendi eos optio ipsam! Sint ullam voluptate obcaecati asperiores eos vero sed iusto magnam
+              ad,
+              vel repellat quidem? Omnis fugit accusantium, illo quos eos odio consectetur et nemo excepturi deleniti
+              dolorum adipisci dolores delectus possimus libero, sed iusto dolorem? Lorem ipsum dolor sit amet
+              consectetur
+              adipisicing elit. Reiciendis neque distinctio modi dicta ut impedit,
+              corporis expedita excepturi natus reprehenderit illo temporibus. Veniam eius dolorem cumque! Iusto eum
+              aut
+              et ipsam nemo cum totam delectus explicabo? Quis odio perferendis aliquid facilis ea quaerat vero minima
+              dolorem cumque, est ab! Vero fuga tenetur unde. Perferendis alias, fugit debitis culpa doloremque
+              aperiam
+              molestiae quos incidunt dolore iure officia! Blanditiis sint delectus quam quae nulla.</span></p>
+            <button onclick="readMore(this)" type="button" class="btn btn-outline-primary">Read More</button>
+            <button id="likebtn" type="button" class="btn btn-success align-item-end"><i
+                class="bi bi-hand-thumbs-up-fill"></i></button>
+            <button id="likebtn" type="button" class="btn btn-success"><i
+                class="bi bi-hand-thumbs-down-fill"></i></i></button>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12 mt-4">
+          <img id="newsimg" src="images\newsletters\news4.jpg" alt="news4" class="img-fluid">
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 mt-4">
+          <article class="artical1">
+            <h2 id="newshead">Fugiat qui incididunt consectetur cillum anim deserunt.</h2>
+            <p><small class="text-muted">Last updated 3 days ago</small></p>
+            <p class="text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis veritatis animi
+              aliquam
+              laboriosam velit, esse, blanditiis aspernatur sint est magnam debitis delectus in fuga fugiat repellat
+              dignissimos ipsum necessitatibus corrupti veniam reprehenderit,assumenda sapiente expedita labore atque!
+              Sint velit cumque minus pariatur quisquam,
+              beatae ab quo impedit eaque soluta vel laboriosam itaque similique iste ex aut in nihil dolorem
+              consequuntur
+              possimus eligendi eos optio ipsam! Sint ullam voluptate obcaecati asperiores eos vero sed iusto magnam
+              ad,
+              vel repellat quidem? Omnis fugit accusantium, illo quos eos odio consectetur et nemo excepturi deleniti
+              dolorum adipisci dolores delectus possimus libero, sed iusto dolorem? Lorem ipsum dolor sit amet
+              consectetur
+              adipisicing elit. Reiciendis neque distinctio modi dicta ut impedit,
+              corporis expedita excepturi natus reprehenderit illo temporibus. Veniam eius dolorem cumque! Iusto eum
+              aut
+              et ipsam nemo cum totam delectus explicabo? Quis odio perferendis aliquid facilis ea quaerat vero minima
+              dolorem cumque, est ab! Vero fuga tenetur unde. Perferendis alias, fugit debitis culpa doloremque
+              aperiam
+              molestiae quos incidunt dolore iure officia! Blanditiis sint delectus quam quae nulla.</span></p>
+            <button onclick="readMore(this)" type="button" class="btn btn-outline-primary">Read More</button>
+            <button id="likebtn" type="button" class="btn btn-success align-item-end"><i
+                class="bi bi-hand-thumbs-up-fill"></i></button>
+            <button id="likebtn" type="button" class="btn btn-success"><i
+                class="bi bi-hand-thumbs-down-fill"></i></i></button>
+          </article>
+        </div>
+      </div>
+      <!--cards---->
+      <div class="text-center">
+        <h1 class="text-capitalize">Experts views</h1>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div class="card-group mt-3">
+        <div class="card shadow ">
+          <img id="cardimg" src="images/cards/card1.jpg" class="card-img-top img-fluid rounded" alt="card1">
+          <div class="card-img-overlay ">
+            <a href="#"><i class="bi bi-instagram li1"></i></a>
+            <a href="#"><i class="bi bi-twitter li1"></i></a>
+            <a href="#"><i class="bi bi-facebook li1"></i></a>
+          </div>
+          <div class="card-body  ">
+            <h5 class="card-title">james ela</h5>
+            <p class="card-text">Velit eiusmod amet id amet quis dolore sit cillum. Nisi sit labore officia officia
+              tempor est dolor exercitation occaecat. Do proident exercitation ut est nostrud minim nostrud nisi.
+              Cupidatat eiusmod ut magna aliqua. Ex ut laborum adipisicing elit.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 14 hour ago</small>
+          </div>
+        </div>
+        <div class="card shadow">
+          <img id="cardimg" src="images/cards/card2.jpg" class="card-img-top img-fluid" alt="card2">
+          <div class="card-img-overlay">
+            <a href="#"><i class="bi bi-instagram li1"></i></a>
+            <a href="#"><i class="bi bi-twitter li1"></i></a>
+            <a href="#"><i class="bi bi-facebook li1"></i></a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">boby deol</h5>
+            <p class="card-text">Minim elit eiusmod adipisicing fugiat ex velit eu irure. Irure amet ut excepteur Lorem
+              sint. Mollit sit nisi consectetur magna irure nostrud velit laboris exercitation. Reprehenderit est cillum
+              dolor laborum sunt laborum esse ex. Reprehenderit id cillum dolore elit eu</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated a day ago</small>
+          </div>
+        </div>
+        <div class="card shadow">
+          <img id="cardimg" src="images/cards/card3.jpg" class="card-img-top img-fluid" alt="card3">
+          <div class="card-img-overlay ">
+            <a href="#"><i class="bi bi-instagram li1"></i></a>
+            <a href="#"><i class="bi bi-twitter li1"></i></a>
+            <a href="#"><i class="bi bi-facebook li1"></i></a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">bill devid</h5>
+            <p class="card-text">Ea voluptate fugiat laborum ad duis duis. Dolor magna elit excepteur commodo mollit
+              ullamco culpa qui. Mollit deserunt mollit elit deserunt anim. Enim amet laborum velit et ut</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 45 min ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----more info---->
+  <section>
+    <div class="container">
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-6 col-md-12 col-sm-6">
+          <div class="row mt-3 ">
+            <div class="col-lg-6 col-md-6 col-sm-12 ">
+              <div class="card ">
+                <img id="picscol" src="images/card2/pic4.jpg" class="card-img img-fluid" alt="pic2">
+                <div id="gallstyle" class="card-img-overlay">
+                  <div onclick="document.location='article1.html'" id="we2">
+                    <h5  class="card-title" >Lorem ipsum</h5>
+                    <p class="card-text mt-3">consectetur adipiscing elit. Nunc auctor odio id est maximus, eget volutpat felis
+                      eleifend.</p>  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="card ">
+                <img id="picscol" src="images/card2/pic1.jpg" class="card-img img-fluid" alt="pic1">
+                <div id="gallstyle" class="card-img-overlay ">
+                  <div onclick="document.location='article1.html'" id="we2">
+                    <h5  class="card-title" >Lorem ipsum</h5>
+                    <p class="card-text mt-3">consectetur adipiscing elit. Nunc auctor odio id est maximus, eget volutpat felis
+                      eleifend.</p>  
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row  mt-3 mb-3">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="card">
+                <img id="picscol" src="images/card2/pic2.jpg" class="card-img img-fluid" alt="pic2">
+                <div id="gallstyle" class="card-img-overlay">
+                  <div onclick="document.location='article1.html'" id="we2">
+                    <h5  class="card-title" >Lorem ipsum</h5>
+                    <p class="card-text mt-3">consectetur adipiscing elit. Nunc auctor odio id est maximus, eget volutpat felis
+                      eleifend.</p>  
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="card">
+                <img id="picscol" src="images/card2/pic2.jpg" class="card-img img-fluid" alt="pic3">
+                <div id="gallstyle" class="card-img-overlay">
+                  <div onclick="document.location='article1.html'" id="we2">
+                    <h5  class="card-title" >Lorem ipsum</h5>
+                    <p class="card-text mt-3">consectetur adipiscing elit. Nunc auctor odio id est maximus, eget volutpat felis
+                      eleifend.</p>  
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----2nd col--->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card text-white mt-3">
+            <img id="picscol2" src="images/card2/pic5.jpg" class="card-img img-fluid" alt="pic3">
+            <div id="gallstyle2" class="card-img-overlay">
+              <div onclick="document.location='article1.html'" id="we2">
+                <h5  class="card-title" >Lorem ipsum</h5>
+                <p class="card-text mt-3">consectetur adipiscing elit. Nunc auctor odio id est maximus, eget volutpat felis
+                  eleifend.</p>  
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----3nd col--->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="row">
+            <div class="card text-white mt-3">
+              <img id="picscol3" src="images/card2/pic1.jpg" class="card-img img-fluid" alt="pic3">
+              <div id="gallstyle2" class="card-img-overlay">
+                <div onclick="document.location='article1.html'" id="we2">
+                  <h5  class="card-title" >Lorem ipsum</h5>
+                  <p class="card-text mt-3">consectetur adipiscing elit. Nunc auctor odio id est maximus, eget volutpat felis
+                    eleifend.</p>  
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="row">
+
+                <div class="card text-white mt-3 mb-3">
+                  <img id="picscol3" src="images/card2/pic1.jpg" class="card-img img-fluid" alt="pic3">
+                  <div id="gallstyle2" class="card-img-overlay">
+                    <div onclick="document.location='article1.html'" id="we2">
+                      <h5  class="card-title" >Lorem ipsum</h5>
+                      <p class="card-text mt-3">consectetur adipiscing elit. Nunc auctor odio id est maximus, eget volutpat felis
+                        eleifend.</p>  
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---3rd col end-->
+      </div>
+    </div>
+  </section>
+
+  <!---Footer-->
+  <footer>
+    <div class="container-fluid bg-black text-white mt-3">
+      <div class="row justify-content-evenly">
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <h1 class="h5" id="about">ABOUT US</h1>
+          <p class=" ms-3 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores animi voluptatibus
+            voluptatum! Nihil quam,
+            consequuntur culpa tempora earum eius consectetur impedit maiores labore voluptatem, ea nostrum, ipsa
+            repellat ex magnam!</p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div>
+            <h1 class="h5" id="services">SERVICES</h1>
+            <ul>
+              <li>Cloud</li>
+              <li>Consulting</li>
+              <li>Analytics and Insights</li>
+              <li>Blockchain</li>
+              <li>Quality Engineering</li>
+              <li>Automation & AI</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div>
+            <h1 id="headings1" class="h5 text-white">FOLLOW US</h1>
+            <ul>
+              <li><a href="#"><i class="bi bi-linkedin " style="color:burlywood;"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram" style="color:burlywood;"></i></a></li>
+              <li><a href="#"><i class="bi bi-twitter" style="color:burlywood;"></i></a></li>
+              <li><a href="#"><i class="bi bi-facebook" style="color:burlywood;"></i></a></li>
+            </ul>
+            <div id="upbtn">
+              <a href="#"><i class="bi bi-arrow-up-circle-fill text-white"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

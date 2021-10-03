@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- my Css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--Java Script-->
+    <script defer language="Javascript" type="text/javascript" src="js/script.js"></script>
+    <!--sweet alert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Contact us</title>
+  </head>
+  <body>
+  <!---Navbar start-->
+    <nav class="navbar navbar-expand-md navbar-light" id="nav1">
+      <div class="container-fluid bg-black mt-1">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" id="logo1" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="bi bi-toggles text-white"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav2">
+            <li class="nav-item  ">
+              <a class="nav-link active text-white" id="link1" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active text-white" id="link1" aria-current="page" href="index.html">Blog</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white " id="link1" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" id="search1">
+            <input class="form-control" id="search2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning" type="button"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!---Navbar end-->
+
+    <!---contact us-->
+      <div class="container">
+        <div class="text-center mt-1">
+          <h1 class="text-capitalize">Contact us</h1>
+          <hr class="w-25 mx-auto" />
+      </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-8 col-sm-8 bg-black text-white ms-2 me-2 mb-3 rounded">
+                    <form id="ContactForm" class="ps-2 pe-2">
+                        <div  class="mb-3 mt-3">
+                          <label for="exampleInputName" class="form-label">Name</label>
+                          <input type="text" class="form-control"  id="exampleInputName" aria-describedby="nameHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" placeholder="Ex:- info@gmail.com" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Please enter real email so that we can get back to you.</div>
+                        </div>
+                        <div  class="mb-3">
+                          <label for="subject1" class="form-label">Subject</label>
+                          <input type="text" class="form-control"  id="subject1">
+                        </div>
+                        <div>
+                          <label for="message1" class="form-label">Message</label>
+                          <textarea class="form-control" id="message1" name="message" style="height: 100px;"></textarea>
+                        </div>                      
+                        <div class="mb-2 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check form</label>
+                        </div>
+                        <div class="text-center">
+                          <button type="button"  onclick="eventhandler()" class="btn btn-outline-warning mb-3">Submit</button>
+                        </div>
+                      </form>
+                </div>               
+            </div>
+      </div>
+    
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
